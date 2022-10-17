@@ -1,0 +1,34 @@
+{
+  "name": "interview_test",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "typeorm": "typeorm-ts-node-commonjs"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "prettier": "latest",
+    "turbo": "latest",
+    "ts-node": "10.7.0",
+    "@types/node": "^16.11.10",
+    "typescript": "4.5.2"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "typeorm": "0.3.8",
+    "reflect-metadata": "^0.1.13",
+    "pg": "^8.4.0"
+  },
+  "packageManager": "yarn@1.22.18"
+}

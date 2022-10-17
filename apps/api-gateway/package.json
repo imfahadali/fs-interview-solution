@@ -1,0 +1,40 @@
+{
+  "name": "@interview_test/api-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --ext ts --exec ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.161.0",
+    "@types/jwk-to-pem": "^2.0.1",
+    "@types/uniqid": "^5.3.2",
+    "@types/uuid": "^8.3.4",
+    "apollo-server": "^3.10.2",
+    "class-validator": "^0.13.2",
+    "graphql": "15.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.5",
+    "mysql2": "^2.3.3",
+    "neverthrow": "^5.0.0",
+    "random-animal-name": "^0.1.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.11",
+    "stripe": "^10.14.0",
+    "type-graphql": "^1.1.1",
+    "typedi": "^0.10.0",
+    "typeorm": "^0.3.8",
+    "typeorm-typedi-extensions": "^0.4.1",
+    "uniqid": "^5.4.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}
