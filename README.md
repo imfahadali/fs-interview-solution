@@ -1,4 +1,4 @@
-Note! Don't spend more than 1 hour on this, and ask however many questions you need to get it done. If you don't want to do the challenge, thats fine too - just send me some relevant experience with the JS tech stack
+**Note! Don't spend more than 1 hour on this, and ask however many questions you need to get it done. If you don't want to do the challenge, thats fine too - just send me some relevant experience with the JS tech stack**
 
 # Introduction
 
