@@ -139,7 +139,6 @@ export const CityCreate = () => {
           <SelectInput optionText="countryName" label="country" />
         </ReferenceInput>
         <TextInput source="name" validate={[required()]} fullWidth />
-        <TextInput source="id" validate={[required()]} fullWidth />
       </SimpleForm>
     </Create>
   );
