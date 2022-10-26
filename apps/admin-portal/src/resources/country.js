@@ -55,6 +55,7 @@ export const countryMappings = {
     return { data: result.createLocation };
   },
   getList: async (params) => {
+    console.log("Running Country Getlist")
     const countries = await request(
       url,
       gql`
@@ -62,6 +63,9 @@ export const countryMappings = {
           getAllLocations {
             countryName
             id
+            cities{
+              name
+            }
           }
         }
       `

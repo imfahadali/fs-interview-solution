@@ -56,19 +56,19 @@ export default class LocationResolver {
     throw new Error("LocationResolver.create");
   }
 
-  @Mutation(() => LocationEntity)
-  async createCity(
-    @Arg("locationId") locationId: string,
-    @Arg("cityName") cityName: string
-  ) {
-    const result = await this.locationService.update(locationId, {
-      cityNamesToAdd: [cityName],
-    });
+  // @Mutation(() => LocationEntity)
+  // async createCity(
+  //   @Arg("locationId") locationId: string,
+  //   @Arg("cityName") cityName: string
+  // ) {
+  //   const result = await this.locationService.update(locationId, {
+  //     cityNamesToAdd: [cityName],
+  //   });
 
-    if (result.isOk()) {
-      return result.value;
-    }
+  //   if (result.isOk()) {
+  //     return result.value;
+  //   }
 
-    throw new Error("LocationResolver.createCity");
-  }
+  //   throw new Error("LocationResolver.createCity");
+  // }
 }
